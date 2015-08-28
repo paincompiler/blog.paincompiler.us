@@ -563,7 +563,7 @@ article footer .tags:before {
 }
 .about .header .avatar img {
   max-width: 100%;
-  height: auto;
+  height: 120pt;
   -webkit-border-radius: 20px !important;
   border-radius: 20px !important;
   -webkit-border-radius: 20px !important;
