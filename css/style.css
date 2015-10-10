@@ -306,7 +306,7 @@ article .entry dl {
   margin: 0 0 20px;
 }
 article .entry p {
-  white-space: pre-wrap;
+  white-space: normal;
   word-wrap: break-word;
 }
 article .entry h1,
