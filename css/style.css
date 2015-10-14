@@ -6,23 +6,23 @@
   src: url("fonts/fontawesome-webfont.eot?#iefix") format('embedded-opentype'), url("fonts/fontawesome-webfont.woff") format('woff'), url("fonts/fontawesome-webfont.ttf") format('truetype'), url("fonts/fontawesome-webfont.svg#FontAwesomeRegular") format('svg');
 }
 html {
-  background: #6c7989;
-  background: #6c7989 -webkit-linear-gradient(#6c7989, #434b55) fixed;
-  background: #6c7989 -moz-linear-gradient(#6c7989, #434b55) fixed;
-  background: #6c7989 -o-linear-gradient(#6c7989, #434b55) fixed;
-  background: #6c7989 -ms-linear-gradient(#6c7989, #434b55) fixed;
-  background: #6c7989 linear-gradient(#6c7989, #434b55) fixed;
+  background: #2e2e2e;
+  background: #2e2e2e -webkit-linear-gradient(#6c7989, #434b55) fixed;
+  background: #2e2e2e -moz-linear-gradient(#6c7989, #434b55) fixed;
+  background: #2e2e2e -o-linear-gradient(#6c7989, #434b55) fixed;
+  background: #2e2e2e -ms-linear-gradient(#6c7989, #434b55) fixed;
+  background: #2e2e2e linear-gradient(#6c7989, #434b55) fixed;
   background-image: url("images/checker.png");
 }
 body {
   padding: 50px 0;
   margin: 0;
-  font: 1em/1.5 "Droid Serif", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font: 1em/1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
   color: #555;
   font-weight: 300;
 }
 .wrapper {
-  width: 680px;
+  width: 720px;
   margin: 0 auto;
   background: #dedede;
   -webkit-border-radius: 8px;
@@ -86,7 +86,7 @@ strong {
 #header .nav {
   float: right;
   font-size: 0.875em;
-  font-family: "Droid Serif", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   line-height: 2.5em;
 }
 #header .nav ul {
@@ -263,7 +263,7 @@ article header .icon:before {
   text-align: center;
 }
 article header time {
-  font: 0.9em "Droid Serif", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font: 0.9em Helvetica Neue, Helvetica, Arial, sans-serif;
   margin-bottom: 5px;
   display: block;
   line-height: 1;
@@ -499,7 +499,7 @@ article footer .tags:before {
 #pagination a {
   display: block;
   padding: 5px 10px;
-  font-family: "Droid Serif", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   background: #069;
   color: #fff;
   text-decoration: none;
@@ -628,7 +628,7 @@ article footer .tags:before {
   margin-top: 10px;
 }
 #footer {
-  width: 680px;
+  width: 720px;
   margin: 20px auto 0;
   padding: 20px 0 0;
   font-size: 0.875em;
