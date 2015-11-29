@@ -105,9 +105,9 @@ As I mentioned i">
 <p>If you ask me about dat,I’ll say dat python and node may be more suitable to handle this. Golang has nice and clean syntax with lots of high-level programming languages’ feature and OO genes, to me it’s more like a python with C blood.</p>
 <p>Come back to Beego, which make the Golang with the ability of server stuff handling just amazing.</p>
 <h3 id="Easy_To_Go_With_Bee">Easy To Go With Bee</h3><p><a href="http://beego.me/docs/install/bee.md" target="_blank" rel="external">Bee tool</a> is a project for help develop beego rapidly. With bee tool you can create, auto compile and reload, develop, test, and deploy beego applications easily. (sorry for just copied lol</p>
-<p>I’m about to pick up one of my favorite command — <a href="http://beego.me/docs/install/bee.md#command-api" target="_blank" rel="external">bee api</a>.</p>
+<p>I’m about to pick up one of my favorite command – <a href="http://beego.me/docs/install/bee.md#command-api" target="_blank" rel="external">bee api</a>.</p>
 <p>It allows you to build a api web app based on your sql database. How simple it is?Assume you have a database called <em>beeDB</em> with several datas and you wanna build a web app called <em>beeAPP</em>. All you need to do is run this command:</p>
-<pre><code># <span class="keyword">bee </span>api <span class="keyword">beeAPP </span>-conn<span class="label">=root</span>:<span class="number">123</span><span class="comment">@tcp\(127.0.0.1:3306)/beeDB</span>
+<pre><code><span class="preprocessor"># bee api beeAPP -conn=root:<span class="number">123</span>@tcp\(<span class="number">127.0</span><span class="number">.0</span><span class="number">.1</span>:<span class="number">3306</span>)/beeDB</span>
 </code></pre><p>Ok, it’s done. Now you have a complete web app with test framework and auto generated API docs(using swagger).</p>
 <p>But how it works?Actually it generates into your database and construct the controllers and models via the pre-designed template. There’s a <a href="http://www.tudou.com/programs/view/aM7iKLlBlrU/?resourceId=0_06_02_99" target="_blank" rel="external">sample video</a> by the Beego’s author shows you how to do this. It’s kinda cool isn’t it?</p>
 <h3 id="REST-ful_Router_Style">REST-ful Router Style</h3><p>With the implicit supports of RESTful, Beego supplies many router method like fixed router, regex router and even you can customize your own rules like:</p>
@@ -118,44 +118,44 @@ beego.<span class="function"><span class="title">Router</span><span class="param
 </code></pre><p>As you can see da third para is what you want to call your API in controller. It’s just convenient.</p>
 <p>Also it supports annotation routers and namespace, which I love most. Check the router code:</p>
 <pre><code><span class="comment">//init namespace</span>
-ns := 
-beego.NewNamespace<span class="params">(<span class="string">"/v1"</span>,
-    beego.NSCond<span class="params">(func<span class="params">(ctx *context.Context)</span> bool {
-        if ctx.Input.Domain<span class="params">()</span> == <span class="string">"api.beego.me"</span> {
-            return <span class="literal">true</span>
+ns <span class="value">:= 
+beego.<span class="function">NewNamespace</span>(<span class="string">"/v1"</span>,
+    beego.<span class="function">NSCond</span>(<span class="function">func</span>(ctx *context.Context) bool {
+        if ctx.Input.<span class="function">Domain</span>() == <span class="string">"api.beego.me"</span> {
+            return true
         }
-        return <span class="literal">false</span>
-    })</span>,
-    beego.NSBefore<span class="params">(auth)</span>,
-    beego.NSGet<span class="params">(<span class="string">"/notallowed"</span>, func<span class="params">(ctx *context.Context)</span> {
-        ctx.Output.Body<span class="params">([]byte<span class="params">(<span class="string">"notAllowed"</span>)</span>)</span>
-    })</span>,
-    beego.NSRouter<span class="params">(<span class="string">"/version"</span>, &amp;AdminController{}, <span class="string">"get:ShowAPIVersion"</span>)</span>,
-    beego.NSRouter<span class="params">(<span class="string">"/changepassword"</span>, &amp;UserController{})</span>,
-    beego.NSNamespace<span class="params">(<span class="string">"/shop"</span>,
-        beego.NSBefore<span class="params">(sentry)</span>,
-        beego.NSGet<span class="params">(<span class="string">"/:id"</span>, func<span class="params">(ctx *context.Context)</span> {
-            ctx.Output.Body<span class="params">([]byte<span class="params">(<span class="string">"notAllowed"</span>)</span>)</span>
-        })</span>,
-    )</span>,
-    beego.NSNamespace<span class="params">(<span class="string">"/cms"</span>,
-        beego.NSInclude<span class="params">(
+        return false
+    }),
+    beego.<span class="function">NSBefore</span>(auth),
+    beego.<span class="function">NSGet</span>(<span class="string">"/notallowed"</span>, <span class="function">func</span>(ctx *context.Context) {
+        ctx.Output.<span class="function">Body</span>([]<span class="function">byte</span>(<span class="string">"notAllowed"</span>))
+    }),
+    beego.<span class="function">NSRouter</span>(<span class="string">"/version"</span>, &amp;AdminController{}, <span class="string">"get:ShowAPIVersion"</span>),
+    beego.<span class="function">NSRouter</span>(<span class="string">"/changepassword"</span>, &amp;UserController{}),
+    beego.<span class="function">NSNamespace</span>(<span class="string">"/shop"</span>,
+        beego.<span class="function">NSBefore</span>(sentry),
+        beego.<span class="function">NSGet</span>(<span class="string">"/:id"</span>, <span class="function">func</span>(ctx *context.Context) {
+            ctx.Output.<span class="function">Body</span>([]<span class="function">byte</span>(<span class="string">"notAllowed"</span>))
+        }),
+    ),
+    beego.<span class="function">NSNamespace</span>(<span class="string">"/cms"</span>,
+        beego.<span class="function">NSInclude</span>(
             &amp;controllers.MainController{},
             &amp;controllers.CMSController{},
             &amp;controllers.BlockController{},
-        )</span>,
-    )</span>,
-)</span>
+        ),
+    ),
+)
 
-<span class="comment">//register namespace</span>
-beego.AddNamespace<span class="params">(ns)</span>
+//register namespace
+beego.<span class="function">AddNamespace</span>(ns)</span>
 </code></pre><p>The structure looks good and you can set your router clean and clear with filter/auth/context and more.</p>
 <h3 id="Stand_Alone_Deployment">Stand Alone Deployment</h3><p>Golang is a compiled language, so you can just put the binary file of your Beego app on server and run it as a daemon.</p>
 <p>We all know the interpreter language powered application just can not get the code protected well, and also there’s a lot other problem with security.</p>
 <p>You can deploy your app more flexibly with supervisord, nginx or apache, and you sleep well.</p>
 <h2 id="Documents_and_Community">Documents and Community</h2><p>Lastly, the docs are under good maintenance and well English supported.(Actually the docs in English is mush better than Chinese version lol</p>
 <p>And apart from GitHub,Google Group and twitter, we have a QQ group to discuss the web tech hold by the author of Beego, Asta Xie. Feel free to join us!</p>
-<pre><code><span class="tag">QQ</span> <span class="tag">Group</span> <span class="rule"><span class="attribute">Number</span>:<span class="value"><span class="number">386056972</span></span></span>
+<pre><code>QQ <span class="keyword">Group</span> <span class="title">Number</span>:<span class="number">386056972</span>
 </code></pre>
     
   </div>
