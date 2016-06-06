@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech on PainCompiler</title>
+    <link>http://blog.paincompiler.com/categories/tech/</link>
+    <description>Recent content in Tech on PainCompiler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Oct 2015 00:57:05 +0000</lastBuildDate>
+    <atom:link href="http://blog.paincompiler.com/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Techniac</title>
+      <link>http://blog.paincompiler.com/post/Techniac/</link>
+      <pubDate>Sun, 11 Oct 2015 00:57:05 +0000</pubDate>
+      
+      <guid>http://blog.paincompiler.com/post/Techniac/</guid>
+      <description>&lt;pre&gt;&lt;code class=&#34;language-lisp&#34;&gt;`(defun techniac-generate (fn &amp;amp;rest key-args)
+...
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;`
+It&amp;rsquo;s hard to re-pick the &lt;em&gt;pen&lt;/em&gt; but somehow, one year later, I come back to here.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
