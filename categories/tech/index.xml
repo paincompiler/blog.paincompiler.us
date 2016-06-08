@@ -15,13 +15,13 @@
       <pubDate>Sun, 11 Oct 2015 00:57:05 +0000</pubDate>
       
       <guid>http://blog.paincompiler.com/post/Techniac/</guid>
-      <description>&lt;pre&gt;&lt;code class=&#34;language-lisp&#34;&gt;`(defun techniac-generate (fn &amp;amp;rest key-args)
-...
+      <description>&lt;p&gt;｀｀｀lisp
+(defun techniac-generate (fn &amp;amp;rest key-args)
+&amp;hellip;
 )
-&lt;/code&gt;&lt;/pre&gt;
+｀｀｀&lt;/p&gt;
 
-&lt;p&gt;`
-It&amp;rsquo;s hard to re-pick the &lt;em&gt;pen&lt;/em&gt; but somehow, one year later, I come back to here.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s hard to re-pick the &lt;em&gt;pen&lt;/em&gt; but somehow, one year later, I come back to here.&lt;/p&gt;
 </description>
     </item>
     
