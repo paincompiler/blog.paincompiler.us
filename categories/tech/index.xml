@@ -11,10 +11,10 @@
     
     <item>
       <title>Techniac</title>
-      <link>http://jazzlisp.com/post/Techniac/</link>
+      <link>http://jazzlisp.com/post/techniac/</link>
       <pubDate>Sun, 11 Oct 2015 00:57:05 +0000</pubDate>
       
-      <guid>http://jazzlisp.com/post/Techniac/</guid>
+      <guid>http://jazzlisp.com/post/techniac/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-lisp&#34;&gt;`(defun techniac-generate (fn &amp;amp;rest key-args)
 ...
 )
