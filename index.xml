@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PainCompiler</title>
-    <link>http://blog.paincompiler.com/</link>
+    <link>http://jazzlisp.com/</link>
     <description>Recent content on PainCompiler</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Jun 2016 21:48:59 +0800</lastBuildDate>
-    <atom:link href="http://blog.paincompiler.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://jazzlisp.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>College Graduated Like A Drop Out</title>
-      <link>http://blog.paincompiler.com/post/College-Graduated-Like-A-Drop-Uut/</link>
+      <link>http://jazzlisp.com/post/College-Graduated-Like-A-Drop-Uut/</link>
       <pubDate>Sat, 04 Jun 2016 21:48:59 +0800</pubDate>
       
-      <guid>http://blog.paincompiler.com/post/College-Graduated-Like-A-Drop-Uut/</guid>
+      <guid>http://jazzlisp.com/post/College-Graduated-Like-A-Drop-Uut/</guid>
       <description>&lt;p&gt;So, it&amp;rsquo;s the college graduation session in China.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Techniac</title>
-      <link>http://blog.paincompiler.com/post/Techniac/</link>
+      <link>http://jazzlisp.com/post/Techniac/</link>
       <pubDate>Sun, 11 Oct 2015 00:57:05 +0000</pubDate>
       
-      <guid>http://blog.paincompiler.com/post/Techniac/</guid>
+      <guid>http://jazzlisp.com/post/Techniac/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-lisp&#34;&gt;`(defun techniac-generate (fn &amp;amp;rest key-args)
 ...
 )
@@ -37,10 +37,10 @@ It&amp;rsquo;s hard to re-pick the &lt;em&gt;pen&lt;/em&gt; but somehow, one yea
     
     <item>
       <title>What The Geek</title>
-      <link>http://blog.paincompiler.com/post/What-The-Geek/</link>
+      <link>http://jazzlisp.com/post/What-The-Geek/</link>
       <pubDate>Thu, 23 Oct 2014 17:54:37 +0000</pubDate>
       
-      <guid>http://blog.paincompiler.com/post/What-The-Geek/</guid>
+      <guid>http://jazzlisp.com/post/What-The-Geek/</guid>
       <description>
 
 &lt;p&gt;Everybody nowdays is yelling like &lt;em&gt;the world gone krazy&lt;/em&gt;. But actually, man is the krazy one and the whole thing went wrong with da madness of ourselves.&lt;/p&gt;
@@ -61,10 +61,10 @@ It&amp;rsquo;s hard to re-pick the &lt;em&gt;pen&lt;/em&gt; but somehow, one yea
     
     <item>
       <title>Start It From Scratch</title>
-      <link>http://blog.paincompiler.com/post/Start-it-from-scratch/</link>
+      <link>http://jazzlisp.com/post/Start-it-from-scratch/</link>
       <pubDate>Sat, 09 Aug 2014 01:26:07 +0000</pubDate>
       
-      <guid>http://blog.paincompiler.com/post/Start-it-from-scratch/</guid>
+      <guid>http://jazzlisp.com/post/Start-it-from-scratch/</guid>
       <description>
 
 &lt;p&gt;You may notice that I say &amp;lsquo;it&amp;rsquo; in the title, and what I&amp;rsquo;m about to tell you is, YES, it&amp;rsquo;s not about &amp;lsquo;IT&amp;rsquo;. Just it, which refers to HipHop.&lt;/p&gt;
@@ -136,10 +136,10 @@ right, they are artist but not dancer (may little sissy about da conception).&lt
     
     <item>
       <title></title>
-      <link>http://blog.paincompiler.com/post/Untitled/</link>
+      <link>http://jazzlisp.com/post/Untitled/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.paincompiler.com/post/Untitled/</guid>
+      <guid>http://jazzlisp.com/post/Untitled/</guid>
       <description></description>
     </item>
     
