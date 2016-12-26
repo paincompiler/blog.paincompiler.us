@@ -15,7 +15,11 @@
       <pubDate>Sat, 04 Jun 2016 21:48:59 +0800</pubDate>
       
       <guid>http://jazzlisp.com/post/college-graduated-like-a-drop-out/</guid>
-      <description>&lt;p&gt;So, it&amp;rsquo;s the college graduation session in China.&lt;/p&gt;
+      <description>&lt;p&gt;I graudated from UESTC the U-Escaped-Shelters-The-Coward way.&lt;/p&gt;
+
+&lt;p&gt;(though I got a swat on my graduation thesis&lt;/p&gt;
+
+&lt;p&gt;(still don&amp;rsquo;t give a fuck&lt;/p&gt;
 </description>
     </item>
     
@@ -25,37 +29,12 @@
       <pubDate>Sun, 11 Oct 2015 00:57:05 +0000</pubDate>
       
       <guid>http://jazzlisp.com/post/techniac/</guid>
-      <description>&lt;pre&gt;&lt;code class=&#34;language-lisp&#34;&gt;`(defun techniac-generate (fn &amp;amp;rest key-args)
+      <description>&lt;pre&gt;&lt;code class=&#34;language-lisp&#34;&gt;(defun techniac-generate (fn &amp;amp;rest key-args)
 ...
 )
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;`
-It&amp;rsquo;s hard to re-pick the &lt;em&gt;pen&lt;/em&gt; but somehow, one year later, I come back to here.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>What The Geek</title>
-      <link>http://jazzlisp.com/post/what-the-geek/</link>
-      <pubDate>Thu, 23 Oct 2014 17:54:37 +0000</pubDate>
-      
-      <guid>http://jazzlisp.com/post/what-the-geek/</guid>
-      <description>
-
-&lt;p&gt;Everybody nowdays is yelling like &lt;em&gt;the world gone krazy&lt;/em&gt;. But actually, man is the krazy one and the whole thing went wrong with da madness of ourselves.&lt;/p&gt;
-
-&lt;p&gt;Apart from the main world stream, we can see events people make, whatever big or negligible, can always change the direction of the main stream, and GEEKs should be one of those people who taka a role in this era.&lt;/p&gt;
-
-&lt;p&gt;But it&amp;rsquo;s not about geek at first I wanna talk, it&amp;rsquo;s GEEKLESS and ANTI-GEEK.&lt;/p&gt;
-
-&lt;h2 id=&#34;geekless-anti-geek&#34;&gt;GEEKLESS&amp;amp;ANTI-GEEK&lt;/h2&gt;
-
-&lt;p&gt;Defining a word is kinda usual thing while we are reaching the discuss level of it, but I will give a few words to describe what I think of Geek but to define it.&lt;/p&gt;
-
-&lt;p&gt;People always got mad at what they don&amp;rsquo;t know about, and, the same time, puff at what they know a little about, which I consider it worse than the other one. And up to the popular concept, it&amp;rsquo;s more easy for everybody to talking sh1t like &amp;lsquo;anybody can be anything&amp;rsquo; sh1t.&lt;/p&gt;
-
-&lt;p&gt;For &amp;lsquo;geek&amp;rsquo;, which is not a brand new thing, the past five years has been a hit word especially in technology field.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s hard to re-pick the &lt;em&gt;pen&lt;/em&gt; but somehow, one year later, I come back to here.&lt;/p&gt;
 </description>
     </item>
     
